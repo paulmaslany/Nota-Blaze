@@ -1,2 +1,3 @@
 var argv = require('minimist')(process.argv.slice(2));
-console.dir(argv);
+console.log("Parsing command line arguments....");
+console.log(argv);
